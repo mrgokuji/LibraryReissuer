@@ -1,9 +1,9 @@
-import sys
-import time
-import smtplib
-import mechanicalsoup
-from getpass import getpass
-from datetime import datetime
+import sys #This module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available.
+import time # for accessing time module
+import smtplib # SMTP protocol client
+import mechanicalsoup # for automating interaction with websites
+from getpass import getpass #Portable password input
+from datetime import datetime #for accessing datetime module
 
 
 class LibraryReissuer:
